@@ -1,0 +1,30 @@
+---
+title: "tnrs _vs._ gnr"
+author: "Luna L. Sanchez-Reyes"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tnrs _vs._ gnr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Currently, there are several services for scientific taxon name resolution. Here, we try to put them all side by side so users can make an informed decision on what service would fit their needs best.
+
+First, here's a list of services that we know of
+
+  - tnrs{taxize}
+  - tnrs_match_names{rotl}
+  - gnr_resolve{taxize} 
+  - tnrs_match{datelife}
+  - tnrs_match.phylo{datelife}
+
+For detailed usage of the taxize package see the [taxize vignette](https://cran.r-project.org/web/packages/taxize/vignettes/taxize_vignette.html)
+
